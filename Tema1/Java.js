@@ -17,7 +17,7 @@ console.log(aldoilea);//am afisat numarul selectat
 
 let a = primul;//m-am complicat asa, mi am dat seama ca puteam sa nu mai scriu cele 2 let-uri si la suma doar sa fac suma dintre primul si al doilea.
 let b = aldoilea;
-let sum = a + b;//am facut suma celor 2 numerele selectate mai sus
+let sum = a + b;    //am facut suma celor 2 numerele selectate mai sus
 console.log(sum);//am afisat suma celor 2 numerele selectate mai sus din sir
 
 console.log(Math.pow(a, b));//am facut ridicarea la putere dintre cele 2 numere si am si afisat-o in acelasi timp
