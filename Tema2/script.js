@@ -39,8 +39,9 @@ switch (vehicul) {
         }
         else if (capacitate > 3001) {
             console.log("Trebuie sa platesti intre 5120 si 6400 de lei pentru impozitul anual");
-            break;
+
         }
+        break;
     }
     case "motocicleta": {
         if (capacitate > 50 && capacitate <= 500) {
@@ -51,8 +52,9 @@ switch (vehicul) {
         }
         else if (capacitate > 1001 && capacitate <= 1600) {
             console.log("Trebuie sa platesti intre 48 si 64 de lei pentru impozitul anual");
-            break;
+
         }
+        break;
     }
     case "camion": {
         if (capacitate > 10000 && capacitate <= 13000) {
@@ -60,8 +62,9 @@ switch (vehicul) {
         }
         else if (capacitate > 13001 && capacitate <= 15000) {
             console.log("Trebuie sa platesti intre 1950 si 2250 de lei pentru impozitul anual");
-            break;
+
         }
+        break;
     }
     case "autobuz": {
         if (capacitate > 2001 && capacitate <= 2200) {
@@ -81,8 +84,9 @@ switch (vehicul) {
         }
         else if (capacitate > 3001 && capacitate <= 6000) {
             console.log("Trebuie sa platesti intre 464 si 870 de lei pentru impozitul anual");
-            break;
+
         }
+        break;
     }
 }
 
